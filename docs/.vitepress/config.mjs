@@ -3,29 +3,49 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/studyplan/',
   title: 'Word Buddy',
-  description: 'RAZ A-D 儿童英语复习站',
+  description: 'RAZ A-D 儿童英语复习手册',
   lang: 'zh-CN',
   cleanUrls: true,
   themeConfig: {
-    logo: '🌈',
+    logo: '▦',
+    siteTitle: 'Story Word Buddy',
     search: { provider: 'local' },
     nav: [
       { text: '首页', link: '/' },
       { text: '词库', link: '/vocabulary/' },
-      { text: '每日复习', link: '/review/' },
-      { text: '听力故事', link: '/stories/' },
-      { text: '打印资料', link: '/print/retell' }
+      { text: '复习', link: '/review/' },
+      { text: '故事', link: '/stories/' },
+      { text: '打印', link: '/print/retell' }
     ],
-    sidebar: {
-      '/vocabulary/': [{ text: '词库总表', link: '/vocabulary/' }],
-      '/review/': [{ text: '每日复习', link: '/review/' }],
-      '/stories/': [
-        { text: '听力故事首页', link: '/stories/' },
-        { text: 'Day 1 树上的鸟巢', link: '/stories/day-1' },
-        { text: 'Day 2 北极动物', link: '/stories/day-2' },
-        { text: 'Day 3 太空旅行', link: '/stories/day-3' }
-      ],
-      '/print/': [{ text: '口语复述对照表', link: '/print/retell' }]
+    sidebar: [
+      {
+        text: '准备与导入',
+        items: [
+          { text: '01 学习手册首页', link: '/' },
+          { text: '02 词库总表', link: '/vocabulary/' }
+        ]
+      },
+      {
+        text: '主动复习',
+        items: [
+          { text: '03 语音回答复习', link: '/review/' },
+          { text: '04 口语复述打印表', link: '/print/retell' }
+        ]
+      },
+      {
+        text: '听力故事',
+        items: [
+          { text: '05 故事目录', link: '/stories/' },
+          { text: '06 A Nest in the Tree', link: '/stories/day-1' },
+          { text: '07 The Arctic Animals', link: '/stories/day-2' },
+          { text: '08 A Trip into Space', link: '/stories/day-3' }
+        ]
+      }
+    ],
+    outline: { label: '页面目录' },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
     }
   }
 })
