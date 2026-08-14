@@ -1,42 +1,66 @@
-# 每日复习
+---
+outline: deep
+---
 
-目标：避免孩子只靠选择题猜答案，改成**主动语音回答**。
+<div class="manual-shell">
+  <div class="manual-top">
+    <div class="manual-logo">🎤</div>
+    <div>
+      <div class="manual-title">语音回答复习</div>
+      <div class="manual-subtitle">不用选择题，先让孩子自己说答案</div>
+    </div>
+  </div>
+  <div class="lesson-card">
+    <div class="search-pill">⌕ 今日任务：英文说中文 · 中文说英文 · 听句子说意思</div>
+    <div class="breadcrumb">Word Buddy  /  主动复习  /  语音回答复习</div>
+    <div class="chapter-line"></div>
+    <div class="lesson-head">
+      <div>
+        <div class="kicker">CHAPTER 03 · 主动回忆</div>
+        <div class="lesson-title">Speaking Review</div>
+        <div class="lesson-sub">让孩子先输出，再看答案，避免靠选择题猜</div>
+      </div>
+      <div class="progress-ring" data-progress="3/8"></div>
+    </div>
 
-## 每日流程
+    <div class="voice-box">
+      <div>英文 → 中文</div>
+      <div class="voice-word">discover</div>
+      <div>请孩子说：发现 / 找到</div>
+      <span class="mic-button">按住说答案</span>
+    </div>
+  </div>
+</div>
 
-### 1. 英文 → 中文
+## 每日复习流程
 
-家长或孩子打开词库，看到英文后说中文意思。
+| 步骤 | 任务 | 孩子输出 |
+|---|---|---|
+| 1 | 看英文 | 说中文意思 |
+| 2 | 看中文 | 说英文单词 |
+| 3 | 听英文句子 | 说中文大意 |
+| 4 | 看关键词 | 用英文造一句话 |
+| 5 | 错词回收 | 明天优先复习 |
 
-示例：
+## 三种复习卡片
 
-> discover
-
-孩子说：
-
-> 发现 / 找到
-
-### 2. 中文 → 英文
-
-看到中文后说英文。
-
-示例：
-
-> 花粉
-
-孩子说：
+### A. 英文说中文
 
 > pollen
 
-### 3. 句子理解
+孩子说：**花粉**
 
-听一句英文，说出大意。
+### B. 中文说英文
+
+> 宇航员
+
+孩子说：**astronaut**
+
+### C. 听句子说意思
 
 > Bees carry pollen from flower to flower.
 
-孩子说：
-
-> 蜜蜂把花粉从一朵花带到另一朵花。
+孩子说：**蜜蜂把花粉从一朵花带到另一朵花。**
 
 ## 记忆曲线
 
